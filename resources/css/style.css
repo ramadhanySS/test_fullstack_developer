@@ -1,0 +1,93 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 250px;
+    background-color: #343a40;
+    color: white;
+    position: fixed;
+    height: 100%;
+    padding: 20px 10px;
+}
+
+.sidebar h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #adb5bd;
+    display: block;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+    color: white;
+}
+
+/* Content Area Styling */
+.content {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+/* Navbar Styling */
+.navbar {
+    margin-left: 260px;
+    background-color: #e9ecef;
+}
+
+.navbar .nav-link {
+    color: #495057;
+}
+
+.navbar .nav-link:hover {
+    color: #000;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead.table-dark th {
+    background-color: #343a40;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #343a40;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Alert Styling */
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border-color: #c3e6cb;
+    margin-top: 20px;
+}
